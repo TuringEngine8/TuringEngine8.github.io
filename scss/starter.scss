@@ -29,8 +29,8 @@ $enable-gradients: true;
 $enable-shadows: true;
 
 // Customize some defaults
-$body-color: #333;
-$body-bg: #fff;
+$body-color: rgb(85, 140, 90);
+$body-bg: rgb(255, 0, 0);
 $border-radius: .4rem;
 $success: #7952b3;
 
@@ -82,6 +82,7 @@ $success: #7952b3;
 
 body {
   padding: 3rem 1.5rem;
+  background-image: url("../../N.jpg");
 }
 
 // Style Bootstrap icons
